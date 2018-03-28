@@ -90,12 +90,12 @@ nav h1 a {
 }
 
 #breadcrumb {
-		padding: 10px 10px 10px;
+		padding: 10px 0px 10px 20px;
 		list-style: none;
 		background-color: #eee;
 		font-size: 1.7rem;
 		margin: 0;
-		width: calc(50% - 80px);
+		width: 100%;
 }
 /* Display list items side by side */
 #breadcrumb li {
