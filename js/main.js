@@ -3,6 +3,7 @@ let restaurants,
   cuisines;
 var map;
 var markers = [];
+var myLazyLoad = new LazyLoad();
 
 /**
  * Fetch neighborhoods and cuisines as soon as the page is loaded.
@@ -85,6 +86,7 @@ window.initMap = () => {
     scrollwheel: false
   });
   updateRestaurants();
+  myLazyLoad.update();
 }
 
 /**
